@@ -17,9 +17,12 @@ $(document).ready(function() {
   array.push(output[3]);
   array.push(output[2]);
 
-  $('li#special').text(output[3]);
+  $('#colorOutput').text(output[0]);
+  $('#foodOutput').text(output[1]);
+  $('#carOutput').text(output[2]);
+  $('#drinkOutput').text(output[3]);
 
 
-  // $("#favorites").text(array);
+
     });
   });
